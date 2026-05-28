@@ -33,7 +33,6 @@
 		<td><input type="TEXT" name="discountLimit" value="${couponVO.discountLimit}" size="45" readonly/></td>
 	</tr>
 
-	<jsp:useBean id="couponSvc" scope="page" class="com.freemind.coupons.model.CouponService" />
 </table>
 <input type="hidden" name="action" value="update">
 <input type="hidden" name="couponId" value="${param.couponId}">

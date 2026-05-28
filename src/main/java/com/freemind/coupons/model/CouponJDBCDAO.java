@@ -90,7 +90,7 @@ public class CouponJDBCDAO implements CouponDAO_interface{
 			pstmt.setInt(3,couponVO.getTriggerThreshold());
 			pstmt.setDouble(4, couponVO.getDiscount());
 			pstmt.setDouble(5, couponVO.getDiscountLimit());
-			pstmt.setInt(6, couponVO.getTriggerThreshold());
+			pstmt.setInt(6, couponVO.getCouponId());
 
 			pstmt.executeUpdate();
 
