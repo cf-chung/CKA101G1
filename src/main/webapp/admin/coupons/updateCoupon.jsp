@@ -12,10 +12,6 @@
 
 <FORM METHOD="post" ACTION="coupon.do" name="form1">
 <table>
-    <tr>
-		<td>編號:<font color=red><b>*</b></font></td>
-		<td>${param.couponId}</td>
-	</tr>
 	<tr>
 		<td>優惠券名稱:</td>
 		<td><input type="TEXT" name="couponName" value="${couponVO.couponName}" size="45"/></td> <td>${errorMsgs.couponName}</td>
