@@ -3,8 +3,7 @@ package com.freemind.member.model;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-public class MemberVO implements java.io.Serializable {
-	private static final long serialVersionUID = 1L;
+public class MemberVO {
 
 	private Integer memberId;        // member_id => memberId
 	private String memberAccount;    // member_account => memberAccount
